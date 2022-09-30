@@ -1,0 +1,267 @@
+@import "./base/base";
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black;
+}
+
+.ant-tabs-ink-bar {
+  background: black;
+}
+.ant-tabs-tab:hover {
+  color: black;
+}
+
+.item-left {
+  margin-top: 35px;
+}
+.item-right {
+  margin-top: 35px;
+}
+
+.ant-carousel .slick-dots li button {
+  background: gray;
+  color: black;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background: black;
+}
+
+// ----------- HeaderHome ---------------------
+.header {
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        img {
+        }
+      }
+      .navbar-toggler {
+      }
+      .collapse {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+            }
+          }
+        }
+        .cart-logo {
+          img {
+            width: 70%;
+            height: 70%;
+            margin-top: 4px;
+          }
+          span {
+          }
+        }
+        form {
+          input {
+          }
+          button {
+          }
+        }
+      }
+    }
+  }
+  .container-fluid {
+    .ant-tabs {
+      .ant-tabs-nav {
+        .ant-tabs-nav-wrap {
+        }
+        .ant-tabs-nav-operations {
+        }
+      }
+      .ant-tabs-content-holder {
+        .ant-tabs-content {
+          .ant-tabs-tabpane {
+            .ant-carousel {
+              .slick-slider {
+                .slick-list {
+                }
+                .slick-dots {
+                  li {
+                    button {
+                      background: gray;
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//---------------Register-----------------------
+.container {
+  .title {
+    border-bottom: 1px solid #dedddc;
+    h1 {
+    }
+  }
+  .ant-form {
+    margin-top: 45px;
+    .ant-form-item {
+      margin-left: 35px;
+      max-width: 90%;
+      .ant-row {
+        .ant-col {
+          text-align: left;
+          margin-left: 0;
+          .ant-form-item-control-input {
+            width: 90%;
+            .ant-form-item-control-input-content {
+              button {
+                background: #6200ee;
+                /* 04 dp */
+
+                box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14),
+                  0px 1px 10px rgba(0, 0, 0, 0.12),
+                  0px 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 50px;
+                margin-right: 5px;
+              }
+              .ant-select {
+                .ant-select-selector {
+                  .ant-select-selection-search {
+                    input {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ----------------Login-------------------
+.container {
+  .title {
+    h1 {
+    }
+  }
+  .login-form {
+    margin-bottom: 35px;
+    .ant-form-item {
+      margin-left: 460px;
+      .ant-row {
+        .ant-col {
+          .ant-form-item-control-input {
+            .ant-form-item-control-input-content {
+              .ant-input-affix-wrapper {
+                width: 50%;
+                .ant-input-prefix {
+                  .anticon {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .kep-login-facebook.metro {
+    margin-bottom: 15px;
+    border-radius: 20px;
+    width: 373px;
+    background: #1877f2;
+    box-shadow: 0px 38.4869px 71.4756px rgba(0, 0, 0, 0.07);
+    svg {
+      width: 10%;
+      height: 25px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+//-------------Profile-------------
+.container-fluid {
+  .profile-title {
+    position: absolute;
+    width: 575px;
+    height: 74px;
+    left: 0px;
+    top: 145px;
+    text-align: left;
+
+    background: linear-gradient(180deg, #f21299 0%, #1b02b5 100%);
+    h1 {
+      margin-top: 15px;
+      color: #fffefe;
+      font-weight: 400;
+      font-size: 35px;
+    }
+  }
+  .ant-form {
+    margin-top: 145px;
+    .row {
+      .col-3 {
+      }
+      .col-4 {
+        .ant-form-item {
+          .ant-row {
+            display: block;
+            text-align: left;
+            .ant-col {
+              // input {
+              //   background: rgba(33, 33, 33, 0.08);
+              //   border-radius: 4px 4px 4px 4px;
+              //   height: 40px;
+              // }
+              .ant-btn {
+                height: 45px;
+                margin-left: 77px;
+                /* 01. Primary/500 */
+
+                background: #6200ee;
+                /* 04 dp */
+
+                box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14),
+                  0px 1px 10px rgba(0, 0, 0, 0.12),
+                  0px 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .order-favorite {
+    margin-left: 1px;
+    width: 1290px;
+    border-top: 1px solid #DEDDDC;
+    .favorite {
+      width: 23%;
+      height: 60px;
+      border-bottom: 1px solid #DEDDDC;
+      border-right: 1px solid #DEDDDC;
+      border-left: 1px solid #DEDDDC;
+      .text-favorite{
+        margin-top: 10px;
+        font-weight: 400;
+      font-size: 32px;
+      line-height: 39px;
+      }
+    }
+    .order {
+      width: 23%;
+      border-left: 1px solid #DEDDDC;
+      border-bottom: 1px solid #DEDDDC;
+      .text-order{
+        margin-top: 10px;
+        font-weight: 400;
+      font-size: 32px;
+      line-height: 39px;
+      /* identical to box height */
+
+      color: #dd2aed;
+      }
+    }
+  }
+}
