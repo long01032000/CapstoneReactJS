@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { AiFillFacebook } from "react-icons/ai";
 import FacebookLogin from "react-facebook-login";
 import axios from "axios";
@@ -24,14 +24,14 @@ export default function LoginFacebook() {
     });
   };
   return (
-    <div>
+    <Fragment>
       <FacebookLogin
         icon={<AiFillFacebook />}
         appId="1376497076213115"
-        autoLoad={true}
+        autoLoad={false}
         fields="name,email,picture"
         callback={responseFacebook}
       />
-    </div>
+    </Fragment>
   );
 }
